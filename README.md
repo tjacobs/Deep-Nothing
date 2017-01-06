@@ -19,15 +19,22 @@ Want even more? Listen to how each episode works: http://podbay.fm/show/89636104
 # How to run it
 
 Sign up at https://aws.amazon.com
+
 Create an Oregon EC2 instance. AWS Marketplace instance, select: "Deep Learning AMI". P2 instance type, smallest.
+
 SSH in
+
 git clone https://github.com/tjacobs/Deep-Nothing.git
+
 vi ~/.keras/keras.json
+
 i
+
 Change "theano" to "tensorflow".
-:wq
-cd Deep-Nothing
-python deepnothing.py
+
+- :wq
+- cd Deep-Nothing
+- python deepnothing.py
 
 10 minutes later...
 Enjoy the script. Perform the script. Upload to YouTube.
